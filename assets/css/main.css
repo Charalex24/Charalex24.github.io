@@ -2418,7 +2418,6 @@ input, select, textarea {
 				display: inline-block;
 				border-bottom: solid 2px;
 				border-top: solid 2px;
-				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
 
@@ -2514,6 +2513,14 @@ input, select, textarea {
 	#main .wrapper.style4.container.special p {
 		max-width: 800px;
 		margin: auto;
+		font-weight: normal;
+	}
+
+	#main .wrapper.style4.container.special {
+		width: 90%;
+		background-color: #ffffff;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.col-6.col-12-narrower p {
@@ -3193,7 +3200,6 @@ input, select, textarea {
 				#banner .inner {
 					background: none;
 					display: block;
-					padding: 0 1.5em;
 				}
 
 					#banner .inner header h2 {
