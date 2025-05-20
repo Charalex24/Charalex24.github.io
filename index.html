@@ -63,8 +63,8 @@
 							</header>
 							<footer>
 								<ul class="buttons">
-									<li><a href="#" id="pickupbtn" class="button">Order Pickup</a></li>
-									<li><a href="#" id="deliverybtn" class="button">Order Delivery</a></li>
+									<li><a id="pickupbtn" class="button">Order Pickup</a></li>
+									<li><a id="deliverybtn" class="button">Order Delivery</a></li>
 								</ul>
 								<div id="addressfield" style="display:none; margin-top: 20px;">
 									<label for="address">Enter your delivery address:</label><br>
@@ -277,12 +277,10 @@
 			<script src="assets/js/main.js"></script>
 			<script>
 			document.getElementById("pickupbtn").addEventListener("click", function(event) {
-			event.preventDefault();
 			document.getElementById("addressfield").style.display = "none";
 			});
 
 			document.getElementById("deliverybtn").addEventListener("click", function(event) {
-			event.preventDefault();
 			document.getElementById("addressfield").style.display = "block";
 			});
 			</script>
