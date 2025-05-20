@@ -2491,7 +2491,7 @@ input, select, textarea {
 	#main .wrapper.style2.container.special {
 		background-color: #ffffff;
 		width: 90%;
-		height: 20em;
+		height: 25em;
 		display: flex;
 		flex-direction: column;
 		justify-content: center; 
