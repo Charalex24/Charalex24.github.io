@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Keiko — IT student at Monash University specializing in software development. Portfolio of projects and contact links.">
+    <meta name="description" content="Keiko — IT student at Monash University specializing in software development. Projects, skills, and resume for internship and graduate opportunities.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Keiko — Portfolio</title>
+    <title>Keiko — Software Development Student Portfolio</title>
 </head>
 <body>
     <a class="skip-link" href="#main">Skip to content</a>
- 
+
     <div class="container">
         <header class="header">
             <p class="logo">Keiko</p>
@@ -20,95 +20,115 @@
             </button>
             <nav class="nav" id="primaryNav">
                 <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
- 
+
         <main id="main">
             <section class="hero">
                 <div class="hero-content">
-                    <h1>Hey there, I'm Keiko</h1>
-                    <h2>Information Technology Student</h2>
+                    <p class="eyebrow">Open to internships &amp; grad roles</p>
+                    <h1>Keiko Alexandra Oey</h1>
+                    <h2>IT Student, Monash University — Melbourne, Australia</h2>
                     <p>
-                        I'm a 2nd year IT student at Monash University in Melbourne, Australia,
-                        specializing in software development.
+                        I'm specializing in software development, with a focus on building things
+                        that are actually used. Currently looking for an
+                        internship where I can learn from a real engineering team.
                     </p>
-                    <a href="#projects" class="hero-button">See My Work</a>
+                    <div class="hero-actions">
+                        <a href="#projects" class="hero-button">View My Projects</a>
+                        <a href="resume.pdf" class="hero-button hero-button--outline" download>Download Resume</a>
+                    </div>
                 </div>
- 
-                <img class="hero-image"
-                     src="https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
-                     alt="Keiko's profile picture">
+
+                <div class="hero-avatar" aria-hidden="true">K</div>
             </section>
- 
+
+            <section class="about" id="about">
+                <h2>About Me</h2>
+                <p>
+                    I got into software development in middle school, building small games and
+                    programs in Scratch. What started as messing around turned into a genuine
+                    interest in how things work under the hood. That curiosity carried through
+                    high school and into my degree, where I'm now studying software development
+                    at Monash. I'm looking for a team where I can keep building real things and
+                    learning fast.
+                </p>
+            </section>
+
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <ul class="skill-list">
+                    <li class="skill-badge">Python</li>
+                    <li class="skill-badge">Java</li>
+                    <li class="skill-badge">JavaScript</li>
+                    <li class="skill-badge">HTML &amp; CSS</li>
+                    <li class="skill-badge">SQL</li>
+                    <li class="skill-badge">Git &amp; GitHub</li>
+                    <li class="skill-badge">Agile / Scrum (coursework)</li>
+                </ul>
+            </section>
+
             <section class="projects" id="projects">
-                <h2>My Projects</h2>
+                <h2>Projects</h2>
                 <div class="project-container">
- 
+
                     <article class="project-item">
-                        <img class="project-image"
-                             src="https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
-                             alt="Screenshot of [Project Name]">
+                        <div class="project-image project-image--placeholder" aria-hidden="true">
+                            <img src="Pizzaro.png">
+                        </div>
                         <div class="project-content">
-                            <h3>[Project Name]</h3>
+                            <h3>Pizzaro</h3>
                             <p class="project-text">
-                                I made this project.<br>
-                                <strong>Tech:</strong> HTML, CSS
+                                Pizzaro's original website looked unprofessional and wasn't bringing in business. 
+                                I redesigned it with a mobile-friendly layout, clearer menu, and more visual appeal.
                             </p>
+                            <ul class="tech-tags">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
                             <div class="project-links">
-                                <a class="project-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                <!-- EDIT: point this at the specific repo, e.g. github.com/Charalex24/project-name -->
+                                <a class="project-button" href="https://github.com/Charalex24/Pizzaro" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-github" aria-hidden="true"></i> View Source
                                 </a>
-                                <a class="project-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa fa-download" aria-hidden="true"></i> Live Demo
+                                <!-- EDIT: link to a live/hosted demo if you have one, or remove this button -->
+                                <a class="project-button project-button--outline" href="https://charalex24.github.io/Pizzaro/" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-external-link" aria-hidden="true"></i> Live Demo
                                 </a>
                             </div>
                         </div>
                     </article>
- 
-                    <article class="project-item">
-                        <img class="project-image"
-                             src="https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
-                             alt="Screenshot of [Project Name]">
-                        <div class="project-content">
-                            <h3>[Project Name]</h3>
-                            <p class="project-text">
-                                I made this project.<br>
-                                <strong>Tech:</strong> HTML, CSS
-                            </p>
-                            <div class="project-links">
-                                <a class="project-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa fa-github" aria-hidden="true"></i> View Source
-                                </a>
-                                <a class="project-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
-                                    <i class="fa fa-download" aria-hidden="true"></i> Live Demo
-                                </a>
-                            </div>
-                        </div>
-                    </article>
- 
+
                 </div>
             </section>
- 
+
             <section class="contact" id="contact">
-                <h2>Contact Me</h2>
+                <h2>Let's Talk</h2>
+                <p class="contact-lede">Open to internships, placements, and junior dev roles.</p>
                 <div class="contact-links">
-                    <a class="contact-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <a class="contact-button" href="https://github.com/Charalex24" target="_blank" rel="noopener noreferrer">
                         <i class="fa fa-github" aria-hidden="true"></i> GitHub
                     </a>
-                    <a class="contact-button" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a class="contact-button" href="https://www.linkedin.com/in/keiko-alexandra-o-9068062b8/" target="_blank" rel="noopener noreferrer">
                         <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
                     </a>
-                    <a class="contact-button" href="mailto:you@example.com">
+                    <a class="contact-button" href="mailto:charalexmail@gmail.com">
                         <i class="fa fa-envelope" aria-hidden="true"></i> Email
                     </a>
                 </div>
             </section>
         </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 Keiko. Built with HTML &amp; CSS.</p>
+        </footer>
     </div>
- 
+
     <script>
         const toggle = document.getElementById('navToggle');
         const nav = document.getElementById('primaryNav');
