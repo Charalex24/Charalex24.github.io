@@ -2,97 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Keiko — IT student at Monash University specializing in software development. Portfolio of projects and contact links.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Homepage</title>
+    <title>Keiko — Portfolio</title>
 </head>
 <body>
-    <div class = "container">
-        <header class = "header">
-            <h1>Keiko</h1>
-            <nav class="nav">
+    <a class="skip-link" href="#main">Skip to content</a>
+ 
+    <div class="container">
+        <header class="header">
+            <p class="logo">Keiko</p>
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+                <span class="sr-only">Menu</span>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <nav class="nav" id="primaryNav">
                 <ul>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
+ 
+        <main id="main">
             <section class="hero">
                 <div class="hero-content">
                     <h1>Hey there, I'm Keiko</h1>
-                    <h3>Information Technology Student</h3>
-                    <p>I'm a 2nd year IT student at Monash University in Melbourne Australia.
-                        I'm specializing in software dev
+                    <h2>Information Technology Student</h2>
+                    <p>
+                        I'm a 2nd year IT student at Monash University in Melbourne, Australia,
+                        specializing in software development.
                     </p>
-
-                    <a href="#projects" class="hero-button">See My Works</a>
+                    <a href="#projects" class="hero-button">See My Work</a>
                 </div>
-
-                <img src = "https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
-                alt = "Chiikawa_Anime_Poster">
-
-                <section class ="projects" id = "projects">
-                    <h2>My Projects</h2>
-                    <div class="project-item">
-                    <div class="project-container">
-                        <img class="project-image" src="https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
-                        alt="project-image">
+ 
+                <img class="hero-image"
+                     src="https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
+                     alt="Keiko's profile picture">
+            </section>
+ 
+            <section class="projects" id="projects">
+                <h2>My Projects</h2>
+                <div class="project-container">
+ 
+                    <article class="project-item">
+                        <img class="project-image"
+                             src="https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
+                             alt="Screenshot of [Project Name]">
                         <div class="project-content">
                             <h3>[Project Name]</h3>
-                            <div class="project-text"></div>
-                                I made this project. <Br>
-                                <strong>Tech</strong> HTML, CSS         
-                            </div>
+                            <p class="project-text">
+                                I made this project.<br>
+                                <strong>Tech:</strong> HTML, CSS
+                            </p>
                             <div class="project-links">
-                                <div class="project-button">
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                                    <i class = "fa fa-github">View Source</i></a>
-                                </div>
-                                <div class="project-button">
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                                    <i class = "fa fa-download">Live Demo</i></a>
-                                </div>
+                                <a class="project-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-github" aria-hidden="true"></i> View Source
+                                </a>
+                                <a class="project-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-download" aria-hidden="true"></i> Live Demo
+                                </a>
                             </div>
                         </div>
-                    <div class="project-container">
-                        <img class="project-image" src="https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
-                        alt="project-image">
+                    </article>
+ 
+                    <article class="project-item">
+                        <img class="project-image"
+                             src="https://static.wikia.nocookie.net/chiikawa/images/b/bd/Chiikawa_Anime_Poster.jpeg/revision/latest/scale-to-width-down/1000?cb=20240716065917"
+                             alt="Screenshot of [Project Name]">
                         <div class="project-content">
                             <h3>[Project Name]</h3>
-                            <div class="project-text"></div>
-                                I made this project. <Br>
-                                <strong>Tech</strong> HTML, CSS         
-                            </div>
+                            <p class="project-text">
+                                I made this project.<br>
+                                <strong>Tech:</strong> HTML, CSS
+                            </p>
                             <div class="project-links">
-                                <div class="project-button">
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                                    <i class = "fa fa-github">View Source</i></a>
-                                </div>
-                                <div class="project-button">
-                                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                                    <i class = "fa fa-download">Live Demo</i></a>
-                                </div>
+                                <a class="project-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-github" aria-hidden="true"></i> View Source
+                                </a>
+                                <a class="project-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-download" aria-hidden="true"></i> Live Demo
+                                </a>
                             </div>
                         </div>
-                    </div>
+                    </article>
+ 
                 </div>
-                </section>
-                <section class="contact" id="contact">
-                    <h2>Contact me</h2>
-                    <div class = "contact-button">
-                        <i class = "fa fa-github">GITHUB</i>
-                    </div>
-                    <div class = "contact-button">
-                        <i class = "fa fa-linkedin">LINKEDIN</i>
-                    </div>
-                    <div class = "contact-button">
-                        <i class = "fa fa-envelope">EMAIL</i>
-                    </div>
-                </section>
+            </section>
+ 
+            <section class="contact" id="contact">
+                <h2>Contact Me</h2>
+                <div class="contact-links">
+                    <a class="contact-button" href="https://github.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-github" aria-hidden="true"></i> GitHub
+                    </a>
+                    <a class="contact-button" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+                    </a>
+                    <a class="contact-button" href="mailto:you@example.com">
+                        <i class="fa fa-envelope" aria-hidden="true"></i> Email
+                    </a>
+                </div>
             </section>
         </main>
     </div>
+ 
+    <script>
+        const toggle = document.getElementById('navToggle');
+        const nav = document.getElementById('primaryNav');
+        toggle.addEventListener('click', () => {
+            const open = nav.classList.toggle('is-open');
+            toggle.setAttribute('aria-expanded', open);
+        });
+    </script>
 </body>
 </html>
